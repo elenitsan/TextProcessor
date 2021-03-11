@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="dataload" project="AM1_AM2_TextProcessor" 
+    file="/AM1_AM2_TextProcessor/src/dataload" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="211" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="datamodel.rules" project="AM1_AM2_TextProcessor" 
+    file="/AM1_AM2_TextProcessor/src/datamodel/rules" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="116" x="107" y="307"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="datamodel.buildingblocks" project="AM1_AM2_TextProcessor" 
+    file="/AM1_AM2_TextProcessor/src/datamodel/buildingblocks" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="169" x="352" y="397"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="client" project="AM1_AM2_TextProcessor" file="/AM1_AM2_TextProcessor/src/client" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="420" y="37"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="engine" project="AM1_AM2_TextProcessor" file="/AM1_AM2_TextProcessor/src/engine" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="352" y="127"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="datamodel.ruleset" project="AM1_AM2_TextProcessor" 
+    file="/AM1_AM2_TextProcessor/src/datamodel/ruleset" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="127" x="44" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="exporters" project="AM1_AM2_TextProcessor" 
+    file="/AM1_AM2_TextProcessor/src/exporters" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="352" y="217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="9">    
+    <bendpoint x="290" y="307"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="11">    
+    <bendpoint x="483" y="217"/>    
+    <bendpoint x="483" y="307"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="361" y="307"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="504" y="127"/>    
+    <bendpoint x="504" y="217"/>    
+    <bendpoint x="504" y="307"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="18">    
+    <bendpoint x="253" y="307"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
